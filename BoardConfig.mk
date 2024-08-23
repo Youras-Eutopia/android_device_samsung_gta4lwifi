@@ -21,13 +21,8 @@ DEVICE_PATH := device/samsung/gta4lwifi
 # Assert
 TARGET_OTA_ASSERT_DEVICE := gta4lwifi
 
-# Board
-TARGET_BOARD_NAME := P85943DA1
-TARGET_BOOTIMAGE_BOARD_NAME := SRPTC24A006
-
 # Kernel
 TARGET_KERNEL_CONFIG := gta4l_eur_open_defconfig
-BOARD_MKBOOTIMG_ARGS += --board $(TARGET_BOOTIMAGE_BOARD_NAME)
 
 # SELinux
 SYSTEM_EXT_PRIVATE_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/system_ext/private
