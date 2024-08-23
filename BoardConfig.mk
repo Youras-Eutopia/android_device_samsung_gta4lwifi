@@ -31,6 +31,3 @@ BOARD_MKBOOTIMG_ARGS += --board $(TARGET_BOOTIMAGE_BOARD_NAME)
 
 # SELinux
 SYSTEM_EXT_PRIVATE_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/system_ext/private
-
-# inherit from the proprietary version
-include vendor/samsung/gta4lwifi/BoardConfigVendor.mk

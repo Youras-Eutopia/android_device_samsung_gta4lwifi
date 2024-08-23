@@ -14,9 +14,6 @@
 # limitations under the License.
 #
 
-# Get non-open-source specific aspects
-$(call inherit-product, vendor/samsung/gta4lwifi/gta4lwifi-vendor.mk)
-
 # Local overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay
