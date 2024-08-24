@@ -21,8 +21,5 @@ DEVICE_PATH := device/samsung/gta4lwifi
 # Assert
 TARGET_OTA_ASSERT_DEVICE := gta4lwifi
 
-# Kernel
-TARGET_KERNEL_CONFIG := gta4l_eur_open_defconfig
-
 # SELinux
 SYSTEM_EXT_PRIVATE_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/system_ext/private
